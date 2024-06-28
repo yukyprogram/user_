@@ -1,0 +1,275 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo, .menu {
+    font-size: 18px;
+    color: #A19D9D;
+}
+
+.company-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.company-logo {
+    width: 80px;
+    height: 80px;
+    background-color: #FA9B2D;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.company-name {
+    font-size: 24px;
+    /* color: #A19D9D; */
+}
+
+nav {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.nav-button {
+    padding: 10px 42px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);        
+}
+
+.nav-button.active {
+    background-color: #FA9B2D;
+    color: white;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-weight: bold;
+    color: #FA9B2D;
+    margin-bottom: 5px;
+}
+
+/* .value {
+    color: #A19D9D;
+} */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #A19D9D;
+    padding: 10px;
+    text-align: left;
+    /* color: #A19D9D; */
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+h2, h3 {
+    /* color: #A19D9D; */
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.business-establishment-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.business-establishment-info .info-item {
+    width: 48%;
+}
+
+.business-establishment-info .label {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.business-establishment-info .value {
+    font-size: 12px;
+    line-height: 1.5;
+}
+.info-item .value a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.info-item .value a:hover {
+    text-decoration: underline;
+}
+
+/* 既存のスタイルに追加 */
+
+.manager-info h2 {
+    margin-bottom: 20px;
+}
+
+.manager-info .info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.manager-info .info-item {
+    margin-bottom: 20px;
+}
+
+.manager-info .label {
+    font-weight: bold;
+    /* color: #A19D9D; */
+    display: block;
+    margin-bottom: 5px;
+}
+/* 
+.manager-info .value {
+    color: #A19D9D;
+} */
+
+.manager-info .info-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.manager-info .info-column {
+    width: 48%;
+}
+
+.manager-info h3 {
+    color: #FA9B2D;
+    margin-bottom: 10px;
+}
+
+.manager-info p {
+    /* color: #A19D9D; */
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* 既存のスタイルに追加 */
+
+.non-financial-info h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.non-financial-info h3 {
+    color: #FA9B2D;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.history-timeline {
+    margin-bottom: 30px;
+}
+
+.timeline-item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.timeline-item .year {
+    width: 60px;
+    font-weight: bold;
+    color: #A19D9D;
+}
+
+.timeline-item .description {
+    color: #A19D9D;
+}
+
+.info-section {
+    margin-bottom: 30px;
+}
+
+.info-section p {
+    color: #A19D9D;
+    line-height: 1.6;
+}
+
+.disclosure-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.disclosure-table th,
+.disclosure-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.disclosure-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.disclosure-table td {
+    color: #A19D9D;
+}
+
+/* 既存のスタイルに追加 */
+
+.evaluation {
+    padding: 20px;
+}
+
+.evaluation-section {
+    margin-bottom: 30px;
+}
+
+.evaluation-section h2 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.evaluation-section p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
